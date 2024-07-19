@@ -33,7 +33,6 @@ export const RandomDogFetch = () => {
               <h4 className='card-title'>{dog.name}</h4>
               <ul className="list-group list-group-flush">
                 <li className="list-group-item"><strong>Esperanza de vida:</strong> {dog.life_span}</li>
-                <li className="list-group-item"><strong>Origen:</strong> {dog.origin}</li>
                 <li className="list-group-item"><strong>Altura:</strong> {dog.height.metric} cm</li>
                 <li className="list-group-item"><strong>Peso:</strong> {dog.weight.metric} kg</li>
               </ul>
